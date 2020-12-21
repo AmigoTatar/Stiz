@@ -1,0 +1,80 @@
+@font-face {
+font-family: Playfair;
+  src: url(fonts/PlayfairDisplaySC-Regular.ttf);
+
+}
+@font-face {
+	font-family: Ubuntu;
+	src: url(fonts/Ubuntu_ligth.ttf);
+}
+.priceList{
+	margin: 10px;
+	font-family: Ubuntu;
+	color:#00923f;
+	font-size:1.5rem;
+	
+}
+table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+td{
+	padding: 5px;
+}
+h2{
+	font-family: Playfair;
+	font-size:2.5rem;
+	margin: 15px;
+	  color:#7c7c7c;
+
+}
+/*--------------------------*/
+@media(max-width: 860px){
+	h2{
+		font-size: 1.25rem;
+	}
+	.priceList{
+		font-size: 1rem;
+	}
+}
+/*media2-------*/
+@media(max-width: 480px){
+	h2{
+		font-size: 1rem;
+	}
+	.priceList{
+		font-size: 3.2vmin;
+	}
+}
+.services{
+	text-align: center;
+}
+.wrapperContact{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+.icon{
+	margin-top: 20px;
+	font-family: Ubuntu;
+	color:#7c7c7c;
+	font-size: 1.7rem;
+}
+.icon p {
+	margin: 20px;
+}
+.heds h2{
+	font-size: 2.5rem;
+}
+
+.main_contact{
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}

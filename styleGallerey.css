@@ -1,0 +1,17 @@
+.gallerey{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15px;
+	flex-wrap: wrap;
+}
+
+.gallerey img {
+	transition: 1s;
+	padding: 15px;
+	width: 345px;
+}
+.gallerey img:hover{
+	filter:grayscale(100%);
+	transform: scale(1.1);
+}
